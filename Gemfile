@@ -17,6 +17,7 @@ gem 'devise', '~> 4.6', '>= 4.6.1'
 gem 'toastr_rails'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'activeadmin'
+gem 'active_skin'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
