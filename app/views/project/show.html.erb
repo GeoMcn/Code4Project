@@ -23,12 +23,12 @@
                    <% @tasks.each do |task| %>
                     <% if task.header %>
                     <div class="collection-item active">
-                        <i class="mdi-social-school"><%= task.note %> </i>
+                        <i class="mdi-social-school"><%= task.title %> </i>
                     </div>
                     <% else %>
                     
                         <%= link_to [task.project, task], class: "collection-item" do %>
-                        <%= task.note %>
+                        <%= task.title %>
                       <% end %>
                     <% end %>
                    <% end %>
