@@ -18,6 +18,8 @@ gem 'toastr_rails'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'activeadmin'
 gem 'active_skin'
+gem 'redcarpet', '~> 3.4'
+gem 'coderay', '~> 1.1', '>= 1.1.2'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
